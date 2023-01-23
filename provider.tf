@@ -6,8 +6,8 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-terraform-projects"
-    storage_account_name = "ejwterraformstate"
+    resource_group_name  = "rg-tf-bootstrap"
+    storage_account_name = "tfstategoeshere"
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
