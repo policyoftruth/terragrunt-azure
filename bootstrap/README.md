@@ -17,3 +17,14 @@ export ARM_SUBSCRIPTION_ID='<SUBSCRIPTION ID>'
 ```
 
 ## **Edit the `variables.tf` and EXECUTE EXECUTE EXECUTE**
+
+Once completed, edit the root `provider.tf` with your chosen values for the below
+
+```
+  backend "azurerm" {
+    resource_group_name  = "<your rg name>"
+    storage_account_name = "<your storage account name>"
+    container_name       = "<your storage container name>"
+    key                  = "terraform.tfstate"
+  }
+```
