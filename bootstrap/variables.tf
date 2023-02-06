@@ -1,6 +1,6 @@
 variable "resource_group_name" {
     type = string
-    default = "rg-tf-bootstrap"
+    default = "rg-tf-statefiles"
 }
 
 variable "resource_group_location" {
@@ -10,10 +10,10 @@ variable "resource_group_location" {
 
 variable "storage_account_name" {
     type = string
-    default = "tfstategoeshere"
+    default = "terraformstate101"
 }
 
 variable "storage_container_name" {
     type = string
-    default = "tfstate"
+    default = "tfstatefiles-container"
 }

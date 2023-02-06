@@ -1,4 +1,6 @@
 tmp/
+venv/
 *.env
 *.tfstate
 .terraform*
+terraform.tfstate.backup

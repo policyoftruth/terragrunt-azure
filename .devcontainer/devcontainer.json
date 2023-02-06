@@ -17,6 +17,7 @@
       "installTFsec": true,
       "installTerraformDocs": true
     },
+    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {}
   }
 }
