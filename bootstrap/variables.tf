@@ -10,7 +10,7 @@ variable "resource_group_location" {
 
 variable "storage_account_name" {
     type = string
-    default = "terraformstate101"
+    default ="tfstate101training"
 }
 
 variable "storage_container_name" {
