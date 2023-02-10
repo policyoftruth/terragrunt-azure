@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
-  name     = "example-for-lucas"
+resource "azurerm_resource_group" "test-example" {
+  name     = "example-for-testing"
   location = "East US"
 }
