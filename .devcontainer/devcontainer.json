@@ -3,22 +3,20 @@
   "customizations": {
     "vscode": {
       "extensions": [
-		"EliverLara.andromeda",
-		"4ops.terraform",
-		"oderwat.indent-rainbow",
-		"esbenp.prettier-vscode",
-		"vscode-icons-team.vscode-icons",
-		"ms-python.python"
-	]
+		    "EliverLara.andromeda",
+		    "4ops.terraform",
+		    "oderwat.indent-rainbow",
+		    "esbenp.prettier-vscode",
+		    "vscode-icons-team.vscode-icons",
+		    "ms-python.python"
+	    ]
     }
   },
-  "postCreateCommand": "/bin/bash ./.devcontainer/post-install.sh",
   "features": {
     "ghcr.io/devcontainers/features/terraform:1": {
       "installTFsec": true,
       "installTerraformDocs": true
     },
-    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
     "ghcr.io/devcontainers/features/azure-cli:1": {}
   }
 }
