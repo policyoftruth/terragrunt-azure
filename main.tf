@@ -1,6 +1,6 @@
 module "rg" {
-  for_each = toset(["assets", "media"])
+  for_each = toset(["example1", "example2", "example3"])
   source   = "./modules/rg"
-  name     = "${each.key}_group"
+  name     = "rg-${each.key}"
   location = "East US"
 }
