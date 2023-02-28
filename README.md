@@ -5,6 +5,7 @@ This is a repository to test terragrunt/terraform patterns on the Azure cloud
 * https://containers.dev/features 
 * ghcr.io/devcontainers/features/azure-cli:1	
 * ghcr.io/devcontainers/features/terraform:1	
+* https://developer.hashicorp.com/terraform/language/meta-arguments/for_each
 
 **pi-hole project**
 * <https://www.gerjon.com/run-a-pihole-securely-in-azure/> - loose reference on setup
